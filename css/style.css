@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  background-color: #5346E1;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+#output {
+  background-color: black;
+  color: white;
+  padding: 3rem;
+  width: 15rem;
+  height: 2rem;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border: none;
+  overflow: hidden;
+}
+
+.buttons {
+  display: grid;
+  grid-template-areas:
+    "btn1 btn2 btn3 btn4"
+    "btn5 btn6 btn7 btn8"
+    "btn9 btn10 btn11 btn12"
+    "btn13 btn14 btn15 btn16"
+    "btn17 btn17 btn18 btn19";
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.title{
+  padding: 2rem;
+  padding-top: 3rem;
+  text-decoration: underline;
+  text-transform: uppercase;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.cal-title{
+  font-size: 1rem;
+  padding-bottom: .5rem;
+}
+
+button {
+  border-radius: 10px;
+  border: none;
+  padding: 1rem;
+}
+
+#clear {
+  grid-area: btn1;
+  /* font-size: 2rem; */
+  transition: ease 350ms;
+}
+
+#clear:hover{
+  background-color: #fff;
+  color: #000000;
+}
+
+.btn-test {
+  grid-area: btn2;
+  transition: ease 350ms;
+}
+
+.btn-test:hover{
+  background-color: #fff;
+  color: #000000;
+}
+
+.btn-test2 {
+  grid-area: btn3;
+  transition: ease 350ms;
+}
+
+.btn-test2:hover{
+  background-color: #fff;
+  color: #000000;
+}
+
+.btn-div {
+  grid-area: btn4;
+  transition: ease 350ms;
+}
+
+.btn-div:hover{
+  background-color: #fff;
+  color: #000000;
+}
+
+.btn-7 {
+  grid-area: btn5;
+  transition: ease 350ms;
+}
+
+.btn-7:hover{
+  background-color: #fff;
+  color: #000000;
+}
+
+.btn-8 {
+  grid-area: btn6;
+  transition: ease 350ms;
+}
+
+.btn-8:hover{
+  background-color: #fff;
+  color: #000000;
+}
+
+.btn-9 {
+  grid-area: btn7;
+  transition: ease 350ms;
+}
+
+.btn-9:hover{
+  background-color: #fff;
+  color: #000000;
+}
+
+.btn-m {
+  grid-area: btn8;
+  transition: ease 350ms;
+}
+
+.btn-m:hover{
+  background-color: #fff;
+  color: #000000;
+}
+
+.btn-4 {
+  grid-area: btn9;
+  transition: ease 350ms;
+}
+
+.btn-4:hover{
+  background-color: #fff;
+  color: #000000;
+}
+
+.btn-5 {
+  grid-area: btn10;
+  transition: ease 350ms;
+}
+
+.btn-5:hover{
+  background-color: #fff;
+  color: #000000;
+}
+
+.btn-6 {
+  grid-area: btn11;
+  transition: ease 350ms;
+}
+
+.btn-6:hover{
+  background-color: #fff;
+  color: #000000;
+}
+
+.btn-1 {
+  grid-area: btn13;
+  transition: ease 350ms;
+}
+
+.btn-1:hover{
+  background-color: #fff;
+  color: #000000;
+}
+
+.btn-2 {
+  grid-area: btn14;
+  transition: ease 350ms;
+}
+
+.btn-2:hover{
+  background-color: #fff;
+  color: #000000;
+}
+
+.btn-3 {
+  grid-area: btn15;
+  transition: ease 350ms;
+}
+
+.btn-3:hover{
+  background-color: #fff;
+  color: #000000;
+}
+
+.btn-0 {
+  grid-area: btn17;
+  transition: ease 350ms;
+}
+
+.btn-0:hover{
+  background-color: #fff;
+  color: #000000;
+}
+
+.btn-dot{
+  transition: ease 350ms;
+}
+
+.btn-dot:hover{
+  background-color: #fff;
+  color: #000000;
+}
+
+.btn-sub{
+  transition: ease 350ms;
+}
+
+.btn-sub:hover{
+  background-color: #fff;
+  color: #000000;
+}
+
+.btn-add{
+  transition: ease 350ms;
+}
+
+.btn-add:hover{
+  background-color: #fff;
+  color: #000000;
+}
+
+.blue {
+  background-color: #14213d;
+  color: #fff;
+}
+
+#equal{
+  transition: ease 350ms;
+}
+
+#equal:hover{
+  background-color: #fff;
+  color: #000000;
+}
+
+.yellow {
+  background-color: #fca311;
+  color: #fff;
+}
+
+.black {
+  background-color: #000000;
+  color: #fff;
+}
